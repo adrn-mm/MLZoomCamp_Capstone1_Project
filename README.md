@@ -2,6 +2,7 @@
 
 ## Problem Statement
 The telecom industry is growing rapidly due to consumers' increasing reliance on internet communication. This has created intense competition among telecom companies and ISPs, giving customers more choice. Customer Churn occurs when customers switch providers, leading to a decrease in revenue for the original provider. To address this, telecom companies must understand the drivers of Customer Churn, improve service quality, offer competitive pricing, and provide additional benefits to retain customers. Addressing Customer Churn is crucial for maintaining a competitive advantage and success in the telecom industry.
+
 ![](https://www.ibef.org/assets/images/Telecom-Industry-2.jpg)
 
 ## Proposed Solution
@@ -65,7 +66,31 @@ docker run --name your_container_name -p 8080:8080 -d your_image_name
 ```
 
 # Project Structure
-
+```bash
+ML ZoomCamp Capstone1 Project
+│
+├───.venv
+│
+├───data
+│       customer_churn_test.csv
+│       customer_churn_train.csv
+│       customer_churn_train_preprocessed.csv
+│
+├───model
+│       random_forest_model.pkl
+│
+├───notebook
+│       data_prep.ipynb
+│       EDA.ipynb
+│       train.ipynb
+│
+└───source
+        customer_churn_test.csv
+        Dockerfile
+        predict.py
+        random_forest_model.joblib
+        train.py
+```
 
 # Project Evaluation Criteria
 - [x] Problem Description
